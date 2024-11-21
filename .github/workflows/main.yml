@@ -35,4 +35,4 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: artifacts-${{ steps.ref.outputs.branch }}
-          path: *.jar
+          path: build/libs/*.jar
